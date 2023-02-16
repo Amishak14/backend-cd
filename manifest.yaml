@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend-pod
-          image: image-registry.openshift-image-registry.svc:5000/amisha-jenkins/expense-tracker-backend:latest
+          image: image-registry.openshift-image-registry.svc:5000/amisha-jenkins/expense-tracker-backend:1
           ports:
             - containerPort: 5000
           env:
